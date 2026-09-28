@@ -85,7 +85,7 @@ let musicStarted = false;
 
 function startMusic() {
 
-  music.volume = 0.18;
+  music.volume = 1.0;
 
   music.play()
     .then(() => {
